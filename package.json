@@ -37,6 +37,11 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
+    "emberx-file-input": "1.0.0",
     "loader.js": "^4.0.1"
+  },
+  "dependencies": {
+    "broccoli-merge-trees": "^1.1.1",
+    "firebase": "^3.0.3"
   }
 }

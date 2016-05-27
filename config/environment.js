@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'image-box',
+    podModulePrefix: 'image-box/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

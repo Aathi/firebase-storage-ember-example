@@ -15,6 +15,16 @@
     {{content-for "head-footer"}}
   </head>
   <body>
+  <script src="https://www.gstatic.com/firebasejs/3.0.2/firebase.js"></script>
+  <script>
+    var config = {
+      apiKey: "API_KEY",
+      authDomain: "AUTH_DOMAIN",
+      databaseURL: "DATABASE_URL",
+      storageBucket: "STORAGE_BUCKET"
+    };
+    firebase.initializeApp(config);
+  </script>
     {{content-for "body"}}
 
     <script src="assets/vendor.js"></script>

@@ -1,0 +1,27 @@
+<div class="container text-center" style="margin-top:150px;">
+  <div class="col-md-6 col-md-offset-3">
+    <h1>Pick a Image to upload</h1>
+    {{x-file-input name="files"
+      multiple=true
+      action="didSelectFiles"
+      alt="Choose a File"
+      class="btn btn-success-outline btn-block"}}
+
+    {{#if progress}}
+      <div style="margin-top:50px;">
+        <progress class="progress progress-success" value={{progress}} max="100"></progress>
+      </div>
+    {{/if}}
+
+    {{#if status}}
+      <p class="text-primary">{{progressText}}</p>
+    {{/if}}
+
+    {{#if downloadURL}}
+      <div class="text-center">
+        <img src="{{downloadURL}}" alt="" class="img-responsive img-rounded">
+      </div>
+    {{/if}}
+  </div>
+
+</div>
