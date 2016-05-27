@@ -6,7 +6,7 @@
 2. https://firebase.google.com/docs/storage/web/upload-files#monitor_upload_progress
 3. https://firebase.google.com/docs/storage/security/start#overview
 
-### How to run this project
+### How to run this project?
 1. `git clone git@github.com:Aathi/firebase-storage-ember-example.git`
 2. `cd firebase-storage-ember-example`
 3. `npm install`
